@@ -37,5 +37,29 @@ li a {
   width: 100px;
   text-decoration-line: none;
   color: rgb(0, 0, 0);
-  
+}
+section div {
+    background-color: rgba(51, 47, 47,0.8 );
+    width: 400px;
+    height: 150px;
+    margin-left: 450px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgb(68, 47, 67);
+    position: relative;
+    top: 200px;
+}
+div.hero_content {
+    text-align: center;
+    padding: 15px;
+
+}
+.BG_sc1 {
+    background-color: yellow;
+    text-decoration-line: none;
+    text-decoration-color: black;
+    padding: 10px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 5px;
+
 }
