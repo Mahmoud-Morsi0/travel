@@ -3,12 +3,13 @@ body {
     margin: 0;    
 }
 #contaner {
-    padding: 10px;
+    padding: 10px 30px;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-around;
     justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    position: absolute;
+    width: 100%;   
 }
 
 .logo {
@@ -29,37 +30,102 @@ body {
 }
 ul {
     list-style: none;
-    margin: 20px;
+    padding-right: 100px;
+    margin: 20px 30px;
     display: flex;
 }
+
 li a {
   justify-content: space-between;
   width: 100px;
   text-decoration-line: none;
   color: rgb(0, 0, 0);
 }
+li a:hover {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
 section div {
-    background-color: rgba(51, 47, 47,0.8 );
-    width: 400px;
-    height: 150px;
+    background-color: rgba(17, 16, 16, 0.8);
+    width: 600px;
+    height: 175px;
     margin-left: 450px;
     border-radius: 5px;
     box-shadow: 2px 4px 8px rgb(68, 47, 67);
     position: relative;
-    top: 200px;
+    top: 250px;
 }
 div.hero_content {
     text-align: center;
     padding: 15px;
-
 }
 .BG_sc1 {
     background-color: yellow;
+    color: black;
     text-decoration-line: none;
-    text-decoration-color: black;
     padding: 10px;
-    margin: 30px auto;
+    margin: 40px auto;
     text-align: center;
     border-radius: 5px;
+}
+.BG_sc1 a:hover {
+    background-color: rgb(94, 255, 0);
+    color: black;
+}
 
+.hero_contenta {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+.hero_contentp {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+#highlights {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(227,255,253),rgb(202,243,240));
+    margin-top: -20px;
+}
+#distination {
+    display: flex;
+    width: 100%;
+    margin-left: 160px;
+
+}
+
+.distination img {
+    height: 200px;
+    border-radius: 10px;
+    object-fit: contain;
+
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+strong {
+    color: rgb(0, 255, 42);
+}
+footer {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+footer img {
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+}
+.footer1 {
+    margin-left: 600px;
+}
+footer ul {
+    margin-top: 20px;
 }

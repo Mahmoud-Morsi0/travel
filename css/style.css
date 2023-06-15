@@ -1,9 +1,12 @@
 #hero {
     height: 800px;
-    background-image: url("/imag/places/ocean.jpg");
-    
-    
-
-
-
+    background-image: url("../imag/places/ocean.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+#distination {
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
