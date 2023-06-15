@@ -35,7 +35,7 @@ ul {
     display: flex;
 }
 
-li a {
+#header a {
   justify-content: space-between;
   width: 100px;
   text-decoration-line: none;
@@ -95,7 +95,7 @@ div.hero_content {
 #distination {
     display: flex;
     width: 100%;
-    margin-left: 160px;
+    margin-left: 230px;
 
 }
 
